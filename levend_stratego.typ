@@ -1,17 +1,17 @@
-#let map = "plaatjes"
+#let img = "plaatjes/"
 #let ranks = (
-  (rank: 10, name: "Maarschalk", art: "maarschalk.png", count: 1),
-  (rank: 9,  name: "Generaal",   art: "generaal.png",   count: 1),
-  (rank: 8,  name: "Kolonel",    art: "kolonel.png",    count: 2),
-  (rank: 7,  name: "Majoor",     art: "majoor.png",     count: 3),
-  (rank: 6,  name: "Kapitein",   art: "kapitein.png",   count: 4),
-  (rank: 5,  name: "Luitenant",  art: "luitenant.png",  count: 4),
-  (rank: 4,  name: "Sergeant",   art: "sergeant.png",   count: 4),
-  (rank: 3,  name: "Mineur",     art: "mineur.png",     count: 5,  extra: "Ontmantelt de Bom"),
-  (rank: "", name: "Bom",        art: "bom.png",        count: 6,  extra: "Kan niet tikken"),
-  (rank: 2,  name: "Verkenner",  art: "verkenner.png",  count: 8),
-  (rank: 1,  name: "Spion",      art: "spion.png",      count: 1,  extra: "Verslaat de Maarschalk"),
-  (rank: "", name: "Vlag",       art: "vlag.png",       count: 1),
+  (rank: 10, name: "Maarschalk", art: img + "maarschalk.png", count: 1),
+  (rank: 9,  name: "Generaal",   art: img + "generaal.png",   count: 1),
+  (rank: 8,  name: "Kolonel",    art: img + "kolonel.png",    count: 2),
+  (rank: 7,  name: "Majoor",     art: img + "majoor.png",     count: 3),
+  (rank: 6,  name: "Kapitein",   art: img + "kapitein.png",   count: 4),
+  (rank: 5,  name: "Luitenant",  art: img + "luitenant.png",  count: 4),
+  (rank: 4,  name: "Sergeant",   art: img + "sergeant.png",   count: 4),
+  (rank: 3,  name: "Mineur",     art: img + "mineur.png",     count: 5,  extra: "Ontmantelt de Bom"),
+  (rank: "", name: "Bom",        art: img + "bom.png",        count: 6,  extra: "Kan niet tikken"),
+  (rank: 2,  name: "Verkenner",  art: img + "verkenner.png",  count: 8),
+  (rank: 1,  name: "Spion",      art: img + "spion.png",      count: 1,  extra: "Verslaat de Maarschalk"),
+  (rank: "", name: "Vlag",       art: img + "vlag.png",       count: 1),
 )
 
 // ---- Kaartfunctie ----
