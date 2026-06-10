@@ -7,11 +7,11 @@
   (rank: 6,  name: "Kapitein",   art: img + "kapitein.png",   count: 4),
   (rank: 5,  name: "Luitenant",  art: img + "luitenant.png",  count: 4),
   (rank: 4,  name: "Sergeant",   art: img + "sergeant.png",   count: 4),
-  (rank: 3,  name: "Mineur",     art: img + "mineur.png",     count: 5,  extra: "Ontmantelt de Bom"),
-  (rank: "", name: "Bom",        art: img + "bom.png",        count: 6,  extra: "Kan niet tikken"),
+  (rank: 3,  name: "Mineur",     art: img + "mineur.png",     count: 5,  extra: "Verslaat de Bom"),
+  (rank: sym.star, name: "Bom",        art: img + "bom.png",        count: 6,  extra: "Mag niet tikken"),
   (rank: 2,  name: "Verkenner",  art: img + "verkenner.png",  count: 8),
   (rank: 1,  name: "Spion",      art: img + "spion.png",      count: 1,  extra: "Verslaat de Maarschalk"),
-  (rank: "", name: "Vlag",       art: img + "vlag.png",       count: 1),
+  (rank: rotate(-20deg, "⚑"), name: "Vlag",       art: img + "vlag.png",       count: 1),
 )
 
 // ---- Kaartfunctie ----
@@ -26,7 +26,7 @@
   rank-font-size: 21pt,
   header-color: black,
 ) = {
-  let rank-label = upper(str(info.rank))
+  let rank-label = [#info.rank]
   let art = info.art
   let count = info.count;
   let name = info.name;
