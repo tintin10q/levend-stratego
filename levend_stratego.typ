@@ -138,12 +138,7 @@
 ) + align(center, text(12pt, font: "Special Elite")[Gebruik de blokjes om bij te houden hoeveel er nog in het spel zitten. De sleutel tot overwinning is goede communicatie.])
 
 #troepenoverzicht(paars, header-color: paars-headers-color)
-#troepenoverzicht(paars, header-color: paars-headers-color)
-
-
 #troepenoverzicht(geel)
-#troepenoverzicht(geel)
-
 
 // Kaarten om te spelen
 #set page("a4", margin: 1cm, flipped: false)
