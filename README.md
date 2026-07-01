@@ -6,4 +6,4 @@
 
 ![example](plaatjes/example.png)
 
-De pdf is gemaakt met [typst](https://typst.app/). Je kan zelf de pdf genereren door `just` of `typst compile levend_stratego.typ` te runnen. 
+De pdf is gemaakt met [typst](https://typst.app/). Je kan zelf de pdf genereren door `just` of `typst compile levend_stratego.typ` uit te voeren. 
