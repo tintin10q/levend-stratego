@@ -2,7 +2,7 @@
 
 # [Levend stratego](https://nl.wikipedia.org/wiki/Levend_stratego) kaartjes
 
-<span style="background: #7F38EC; padding: .4rem; border-radius: 9%"><a href="levend_stratego.pdf">Link naar de pdf</a></span>   
+<span style="background: #7F38EC; padding: .4rem; border-radius: 9%"><a href="https://github.com/tintin10q/levend-stratego/blob/main/troepen-kaartjes.pdf">Link naar de pdf</a></span>   
 
 ![example](plaatjes/example.png)
 
